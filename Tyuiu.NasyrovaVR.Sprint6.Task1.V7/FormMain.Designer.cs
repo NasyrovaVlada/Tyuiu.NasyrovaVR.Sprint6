@@ -52,7 +52,7 @@
             // 
             this.GroupBoxCond_NVR.Controls.Add(this.PictureBoxFormula_NVR);
             this.GroupBoxCond_NVR.Controls.Add(this.TextBoxTask_NVR);
-            this.GroupBoxCond_NVR.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.GroupBoxCond_NVR.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.GroupBoxCond_NVR.Location = new System.Drawing.Point(12, 12);
             this.GroupBoxCond_NVR.Name = "GroupBoxCond_NVR";
             this.GroupBoxCond_NVR.Size = new System.Drawing.Size(571, 307);
@@ -73,7 +73,7 @@
             // TextBoxTask_NVR
             // 
             this.TextBoxTask_NVR.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TextBoxTask_NVR.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TextBoxTask_NVR.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.TextBoxTask_NVR.Location = new System.Drawing.Point(19, 35);
             this.TextBoxTask_NVR.Multiline = true;
             this.TextBoxTask_NVR.Name = "TextBoxTask_NVR";
@@ -90,7 +90,7 @@
             this.GroupBoxInput_NVR.Controls.Add(this.TextBoxStart_NVR);
             this.GroupBoxInput_NVR.Controls.Add(this.LabelStop_NVR);
             this.GroupBoxInput_NVR.Controls.Add(this.LabelStart_NVR);
-            this.GroupBoxInput_NVR.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.GroupBoxInput_NVR.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.GroupBoxInput_NVR.Location = new System.Drawing.Point(12, 325);
             this.GroupBoxInput_NVR.Name = "GroupBoxInput_NVR";
             this.GroupBoxInput_NVR.Size = new System.Drawing.Size(318, 113);
@@ -102,40 +102,40 @@
             // 
             this.TextBoxStop_NVR.Location = new System.Drawing.Point(162, 72);
             this.TextBoxStop_NVR.Name = "TextBoxStop_NVR";
-            this.TextBoxStop_NVR.Size = new System.Drawing.Size(133, 35);
+            this.TextBoxStop_NVR.Size = new System.Drawing.Size(133, 36);
             this.TextBoxStop_NVR.TabIndex = 3;
             // 
             // TextBoxStart_NVR
             // 
             this.TextBoxStart_NVR.Location = new System.Drawing.Point(11, 72);
             this.TextBoxStart_NVR.Name = "TextBoxStart_NVR";
-            this.TextBoxStart_NVR.Size = new System.Drawing.Size(132, 35);
+            this.TextBoxStart_NVR.Size = new System.Drawing.Size(132, 36);
             this.TextBoxStart_NVR.TabIndex = 2;
             // 
             // LabelStop_NVR
             // 
             this.LabelStop_NVR.AutoSize = true;
-            this.LabelStop_NVR.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.LabelStop_NVR.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.LabelStop_NVR.Location = new System.Drawing.Point(158, 35);
             this.LabelStop_NVR.Name = "LabelStop_NVR";
-            this.LabelStop_NVR.Size = new System.Drawing.Size(119, 24);
+            this.LabelStop_NVR.Size = new System.Drawing.Size(120, 22);
             this.LabelStop_NVR.TabIndex = 1;
             this.LabelStop_NVR.Text = "Конец шага:";
             // 
             // LabelStart_NVR
             // 
             this.LabelStart_NVR.AutoSize = true;
-            this.LabelStart_NVR.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.LabelStart_NVR.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.LabelStart_NVR.Location = new System.Drawing.Point(7, 35);
             this.LabelStart_NVR.Name = "LabelStart_NVR";
-            this.LabelStart_NVR.Size = new System.Drawing.Size(117, 24);
+            this.LabelStart_NVR.Size = new System.Drawing.Size(120, 22);
             this.LabelStart_NVR.TabIndex = 0;
             this.LabelStart_NVR.Text = "Старт шага:";
             // 
             // ButtonInfo_NVR
             // 
             this.ButtonInfo_NVR.BackColor = System.Drawing.Color.Orange;
-            this.ButtonInfo_NVR.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ButtonInfo_NVR.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ButtonInfo_NVR.Location = new System.Drawing.Point(336, 349);
             this.ButtonInfo_NVR.Name = "ButtonInfo_NVR";
             this.ButtonInfo_NVR.Size = new System.Drawing.Size(101, 83);
@@ -147,7 +147,7 @@
             // ButtonDone_NVR
             // 
             this.ButtonDone_NVR.BackColor = System.Drawing.Color.DarkGreen;
-            this.ButtonDone_NVR.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ButtonDone_NVR.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ButtonDone_NVR.Location = new System.Drawing.Point(443, 349);
             this.ButtonDone_NVR.Name = "ButtonDone_NVR";
             this.ButtonDone_NVR.Size = new System.Drawing.Size(140, 83);
@@ -160,7 +160,7 @@
             // 
             this.GroupBoxOutput_NVR.Controls.Add(this.TextBoxResult_NVR);
             this.GroupBoxOutput_NVR.Controls.Add(this.LabelResult_NVR);
-            this.GroupBoxOutput_NVR.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.GroupBoxOutput_NVR.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.GroupBoxOutput_NVR.Location = new System.Drawing.Point(589, 12);
             this.GroupBoxOutput_NVR.Name = "GroupBoxOutput_NVR";
             this.GroupBoxOutput_NVR.Size = new System.Drawing.Size(262, 426);
@@ -183,10 +183,10 @@
             // LabelResult_NVR
             // 
             this.LabelResult_NVR.AutoSize = true;
-            this.LabelResult_NVR.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.LabelResult_NVR.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.LabelResult_NVR.Location = new System.Drawing.Point(18, 35);
             this.LabelResult_NVR.Name = "LabelResult_NVR";
-            this.LabelResult_NVR.Size = new System.Drawing.Size(108, 24);
+            this.LabelResult_NVR.Size = new System.Drawing.Size(110, 22);
             this.LabelResult_NVR.TabIndex = 2;
             this.LabelResult_NVR.Text = "Результат:";
             // 
@@ -200,7 +200,7 @@
             this.Controls.Add(this.ButtonInfo_NVR);
             this.Controls.Add(this.GroupBoxInput_NVR);
             this.Controls.Add(this.GroupBoxCond_NVR);
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "FormMain";

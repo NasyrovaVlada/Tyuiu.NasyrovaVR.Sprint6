@@ -121,7 +121,7 @@
   <data name="PictureBoxFormula_NVR.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAbUAAAA3CAYAAACLpdS6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wgAADsIBFShKgAAAHIZJREFUeF7t3VVsJEfXBuBc5CYXUaRcRMlFlETaMEfBDTPjhhkcZmbYMDMzM3Oy
+        wQAADsEBuJFr7QAAHIZJREFUeF7t3VVsJEfXBuBc5CYXUaRcRMlFlETaMEfBDTPjhhkcZmbYMDMzM3Oy
         YWZmZmbm+vWUvtq/d7bHnvH0jL3jeqXW2OPGqnPOe6ja44WMjAHGf//9F/7888/w5Zdfhk8//TR++t33
         gxX//PNP+OWXX8KHH34YPvvss/DTTz/F7zLGhnn866+/wtdffx3ef//98Oabb4aPP/44/PDDD3HMBvM8
         j0swxsb0rbfeinr0+++/h3///fd/fx06yKSWkZGRkdE1yKSWkZGRkdE1yKSWkZGRkdE1yKSWkZGRkdE1
@@ -246,6 +246,12 @@
         P9uA9AAAAABJRU5ErkJggg==
 </value>
   </data>
+  <metadata name="X.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Y.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="X.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
