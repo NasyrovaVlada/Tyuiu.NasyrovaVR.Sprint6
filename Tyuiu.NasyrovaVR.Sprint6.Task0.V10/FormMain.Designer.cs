@@ -157,6 +157,7 @@
             // ButtonInfo_NVR
             // 
             this.ButtonInfo_NVR.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.ButtonInfo_NVR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonInfo_NVR.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ButtonInfo_NVR.Location = new System.Drawing.Point(532, 384);
             this.ButtonInfo_NVR.Name = "ButtonInfo_NVR";

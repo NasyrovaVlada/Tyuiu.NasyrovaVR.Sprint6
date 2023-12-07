@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.GroupBoxCond_NVR = new System.Windows.Forms.GroupBox();
             this.PictureBoxFormula_NVR = new System.Windows.Forms.PictureBox();
             this.TextBoxTask_NVR = new System.Windows.Forms.TextBox();
@@ -48,12 +48,14 @@
             this.X = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Y = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TextBoxResult_NVR = new System.Windows.Forms.TextBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.GroupBoxCond_NVR.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBoxFormula_NVR)).BeginInit();
             this.GroupBoxInput_NVR.SuspendLayout();
             this.GroupBoxOutput_NVR.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Chart_NVR)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridView_NVR)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // GroupBoxCond_NVR
@@ -169,6 +171,7 @@
             // 
             // GroupBoxOutput_NVR
             // 
+            this.GroupBoxOutput_NVR.Controls.Add(this.dataGridView1);
             this.GroupBoxOutput_NVR.Controls.Add(this.Chart_NVR);
             this.GroupBoxOutput_NVR.Controls.Add(this.DataGridView_NVR);
             this.GroupBoxOutput_NVR.Controls.Add(this.TextBoxResult_NVR);
@@ -182,18 +185,18 @@
             // 
             // Chart_NVR
             // 
-            chartArea1.Name = "ChartArea1";
-            this.Chart_NVR.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.Chart_NVR.Legends.Add(legend1);
+            chartArea3.Name = "ChartArea1";
+            this.Chart_NVR.ChartAreas.Add(chartArea3);
+            legend3.Name = "Legend1";
+            this.Chart_NVR.Legends.Add(legend3);
             this.Chart_NVR.Location = new System.Drawing.Point(192, 34);
             this.Chart_NVR.Name = "Chart_NVR";
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series1.IsVisibleInLegend = false;
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.Chart_NVR.Series.Add(series1);
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series3.IsVisibleInLegend = false;
+            series3.Legend = "Legend1";
+            series3.Name = "Series1";
+            this.Chart_NVR.Series.Add(series3);
             this.Chart_NVR.Size = new System.Drawing.Size(476, 386);
             this.Chart_NVR.TabIndex = 4;
             this.Chart_NVR.Text = "chart1";
@@ -236,6 +239,14 @@
             this.TextBoxResult_NVR.TabIndex = 2;
             this.TextBoxResult_NVR.Text = "Результат:";
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(93, 187);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(8, 8);
+            this.dataGridView1.TabIndex = 5;
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -261,6 +272,7 @@
             this.GroupBoxOutput_NVR.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Chart_NVR)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridView_NVR)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -283,6 +295,7 @@
         private System.Windows.Forms.DataGridView DataGridView_NVR;
         private System.Windows.Forms.DataGridViewTextBoxColumn X;
         private System.Windows.Forms.DataGridViewTextBoxColumn Y;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
 
