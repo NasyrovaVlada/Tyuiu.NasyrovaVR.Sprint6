@@ -20,12 +20,13 @@ namespace Tyuiu.NasyrovaVR.Sprint6.Task1.V7.Lib
             for (x = startValue; x <= stopValue; x++)
             {
                 y = Math.Round(((2*x-3)/(Math.Cos(x)+x) + 5), 2);
-                valueArray[count] = y;
-                count++;
+                
                 if (y == double.NaN || y == double.PositiveInfinity || y == double.NegativeInfinity)
                 {
                     y = 0;
                 }
+                valueArray[count] = y;
+                count++;
             }
 
             return valueArray;
