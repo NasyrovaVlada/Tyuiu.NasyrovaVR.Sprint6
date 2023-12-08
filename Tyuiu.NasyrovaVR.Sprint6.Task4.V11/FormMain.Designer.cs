@@ -258,7 +258,7 @@
             this.Chart_NVR.TabIndex = 1;
             this.Chart_NVR.Text = "График";
             title1.Name = "Title1";
-            title1.Text = "График функции";
+            title1.Text = "График F(x)";
             this.Chart_NVR.Titles.Add(title1);
             // 
             // Splitter_NVR
