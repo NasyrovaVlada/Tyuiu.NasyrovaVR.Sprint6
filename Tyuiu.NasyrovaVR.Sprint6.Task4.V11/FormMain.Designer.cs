@@ -29,34 +29,35 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain_NVR));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title1 = new System.Windows.Forms.DataVisualization.Charting.Title();
             this.PanelTop_NVR = new System.Windows.Forms.Panel();
+            this.ButtonInfo_NVR = new System.Windows.Forms.Button();
+            this.ButtonSave_NVR = new System.Windows.Forms.Button();
+            this.ButtonDone_NVR = new System.Windows.Forms.Button();
+            this.GroupBoxInput_NVR = new System.Windows.Forms.GroupBox();
+            this.TextBoxStop_NVR = new System.Windows.Forms.TextBox();
+            this.TextBoxStart_NVR = new System.Windows.Forms.TextBox();
+            this.LabelStop_NVR = new System.Windows.Forms.Label();
+            this.LabelStart_NVR = new System.Windows.Forms.Label();
+            this.GroupBoxTask_NVR = new System.Windows.Forms.GroupBox();
+            this.PictureBoxFormula_NVR = new System.Windows.Forms.PictureBox();
+            this.TextBoxTask_NVR = new System.Windows.Forms.TextBox();
             this.PanelLeft_NVR = new System.Windows.Forms.Panel();
-            this.PanelFill_NVR = new System.Windows.Forms.Panel();
-            this.Splitter_NVR = new System.Windows.Forms.Splitter();
             this.GroupBoxOutput_NVR = new System.Windows.Forms.GroupBox();
             this.TextBoxOutput_NVR = new System.Windows.Forms.TextBox();
-            this.GroupBoxTask_NVR = new System.Windows.Forms.GroupBox();
-            this.TextBoxTask_NVR = new System.Windows.Forms.TextBox();
-            this.PictureBoxFormula_NVR = new System.Windows.Forms.PictureBox();
-            this.GroupBoxInput_NVR = new System.Windows.Forms.GroupBox();
-            this.LabelStart_NVR = new System.Windows.Forms.Label();
-            this.LabelStop_NVR = new System.Windows.Forms.Label();
-            this.TextBoxStart_NVR = new System.Windows.Forms.TextBox();
-            this.TextBoxStop_NVR = new System.Windows.Forms.TextBox();
-            this.ButtonDone_NVR = new System.Windows.Forms.Button();
-            this.ButtonSave_NVR = new System.Windows.Forms.Button();
-            this.ButtonInfo_NVR = new System.Windows.Forms.Button();
+            this.PanelFill_NVR = new System.Windows.Forms.Panel();
             this.Chart_NVR = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.Splitter_NVR = new System.Windows.Forms.Splitter();
             this.PanelTop_NVR.SuspendLayout();
-            this.PanelLeft_NVR.SuspendLayout();
-            this.PanelFill_NVR.SuspendLayout();
-            this.GroupBoxOutput_NVR.SuspendLayout();
+            this.GroupBoxInput_NVR.SuspendLayout();
             this.GroupBoxTask_NVR.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBoxFormula_NVR)).BeginInit();
-            this.GroupBoxInput_NVR.SuspendLayout();
+            this.PanelLeft_NVR.SuspendLayout();
+            this.GroupBoxOutput_NVR.SuspendLayout();
+            this.PanelFill_NVR.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Chart_NVR)).BeginInit();
             this.SuspendLayout();
             // 
@@ -73,6 +74,129 @@
             this.PanelTop_NVR.Size = new System.Drawing.Size(884, 111);
             this.PanelTop_NVR.TabIndex = 0;
             // 
+            // ButtonInfo_NVR
+            // 
+            this.ButtonInfo_NVR.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.ButtonInfo_NVR.BackColor = System.Drawing.Color.DodgerBlue;
+            this.ButtonInfo_NVR.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ButtonInfo_NVR.Location = new System.Drawing.Point(797, 25);
+            this.ButtonInfo_NVR.Name = "ButtonInfo_NVR";
+            this.ButtonInfo_NVR.Size = new System.Drawing.Size(75, 71);
+            this.ButtonInfo_NVR.TabIndex = 4;
+            this.ButtonInfo_NVR.Text = "Справка";
+            this.ButtonInfo_NVR.UseVisualStyleBackColor = false;
+            this.ButtonInfo_NVR.Click += new System.EventHandler(this.ButtonInfo_NVR_Click);
+            // 
+            // ButtonSave_NVR
+            // 
+            this.ButtonSave_NVR.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.ButtonSave_NVR.BackColor = System.Drawing.Color.RoyalBlue;
+            this.ButtonSave_NVR.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ButtonSave_NVR.Location = new System.Drawing.Point(699, 25);
+            this.ButtonSave_NVR.Name = "ButtonSave_NVR";
+            this.ButtonSave_NVR.Size = new System.Drawing.Size(92, 71);
+            this.ButtonSave_NVR.TabIndex = 3;
+            this.ButtonSave_NVR.Text = "Сохранить";
+            this.ButtonSave_NVR.UseVisualStyleBackColor = false;
+            this.ButtonSave_NVR.Click += new System.EventHandler(this.ButtonSave_NVR_Click);
+            // 
+            // ButtonDone_NVR
+            // 
+            this.ButtonDone_NVR.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.ButtonDone_NVR.BackColor = System.Drawing.Color.Green;
+            this.ButtonDone_NVR.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ButtonDone_NVR.Location = new System.Drawing.Point(604, 25);
+            this.ButtonDone_NVR.Name = "ButtonDone_NVR";
+            this.ButtonDone_NVR.Size = new System.Drawing.Size(88, 71);
+            this.ButtonDone_NVR.TabIndex = 2;
+            this.ButtonDone_NVR.Text = "Выполнить";
+            this.ButtonDone_NVR.UseVisualStyleBackColor = false;
+            this.ButtonDone_NVR.Click += new System.EventHandler(this.ButtonDone_NVR_Click);
+            // 
+            // GroupBoxInput_NVR
+            // 
+            this.GroupBoxInput_NVR.Controls.Add(this.TextBoxStop_NVR);
+            this.GroupBoxInput_NVR.Controls.Add(this.TextBoxStart_NVR);
+            this.GroupBoxInput_NVR.Controls.Add(this.LabelStop_NVR);
+            this.GroupBoxInput_NVR.Controls.Add(this.LabelStart_NVR);
+            this.GroupBoxInput_NVR.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.GroupBoxInput_NVR.Location = new System.Drawing.Point(371, 3);
+            this.GroupBoxInput_NVR.Name = "GroupBoxInput_NVR";
+            this.GroupBoxInput_NVR.Size = new System.Drawing.Size(227, 108);
+            this.GroupBoxInput_NVR.TabIndex = 1;
+            this.GroupBoxInput_NVR.TabStop = false;
+            this.GroupBoxInput_NVR.Text = "Ввод данных";
+            // 
+            // TextBoxStop_NVR
+            // 
+            this.TextBoxStop_NVR.Location = new System.Drawing.Point(113, 45);
+            this.TextBoxStop_NVR.Name = "TextBoxStop_NVR";
+            this.TextBoxStop_NVR.Size = new System.Drawing.Size(100, 26);
+            this.TextBoxStop_NVR.TabIndex = 3;
+            // 
+            // TextBoxStart_NVR
+            // 
+            this.TextBoxStart_NVR.Location = new System.Drawing.Point(0, 44);
+            this.TextBoxStart_NVR.Name = "TextBoxStart_NVR";
+            this.TextBoxStart_NVR.Size = new System.Drawing.Size(100, 26);
+            this.TextBoxStart_NVR.TabIndex = 2;
+            // 
+            // LabelStop_NVR
+            // 
+            this.LabelStop_NVR.AutoSize = true;
+            this.LabelStop_NVR.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.LabelStop_NVR.Location = new System.Drawing.Point(110, 28);
+            this.LabelStop_NVR.Name = "LabelStop_NVR";
+            this.LabelStop_NVR.Size = new System.Drawing.Size(77, 14);
+            this.LabelStop_NVR.TabIndex = 1;
+            this.LabelStop_NVR.Text = "Конец шага";
+            // 
+            // LabelStart_NVR
+            // 
+            this.LabelStart_NVR.AutoSize = true;
+            this.LabelStart_NVR.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.LabelStart_NVR.Location = new System.Drawing.Point(0, 28);
+            this.LabelStart_NVR.Name = "LabelStart_NVR";
+            this.LabelStart_NVR.Size = new System.Drawing.Size(67, 13);
+            this.LabelStart_NVR.TabIndex = 0;
+            this.LabelStart_NVR.Text = "Старт шага";
+            // 
+            // GroupBoxTask_NVR
+            // 
+            this.GroupBoxTask_NVR.Controls.Add(this.PictureBoxFormula_NVR);
+            this.GroupBoxTask_NVR.Controls.Add(this.TextBoxTask_NVR);
+            this.GroupBoxTask_NVR.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.GroupBoxTask_NVR.Location = new System.Drawing.Point(8, 3);
+            this.GroupBoxTask_NVR.Name = "GroupBoxTask_NVR";
+            this.GroupBoxTask_NVR.Size = new System.Drawing.Size(357, 129);
+            this.GroupBoxTask_NVR.TabIndex = 0;
+            this.GroupBoxTask_NVR.TabStop = false;
+            this.GroupBoxTask_NVR.Text = "Условие";
+            // 
+            // PictureBoxFormula_NVR
+            // 
+            this.PictureBoxFormula_NVR.Image = ((System.Drawing.Image)(resources.GetObject("PictureBoxFormula_NVR.Image")));
+            this.PictureBoxFormula_NVR.Location = new System.Drawing.Point(0, 83);
+            this.PictureBoxFormula_NVR.Name = "PictureBoxFormula_NVR";
+            this.PictureBoxFormula_NVR.Size = new System.Drawing.Size(351, 19);
+            this.PictureBoxFormula_NVR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PictureBoxFormula_NVR.TabIndex = 1;
+            this.PictureBoxFormula_NVR.TabStop = false;
+            // 
+            // TextBoxTask_NVR
+            // 
+            this.TextBoxTask_NVR.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.TextBoxTask_NVR.Location = new System.Drawing.Point(0, 25);
+            this.TextBoxTask_NVR.Multiline = true;
+            this.TextBoxTask_NVR.Name = "TextBoxTask_NVR";
+            this.TextBoxTask_NVR.ReadOnly = true;
+            this.TextBoxTask_NVR.Size = new System.Drawing.Size(353, 92);
+            this.TextBoxTask_NVR.TabIndex = 0;
+            this.TextBoxTask_NVR.TabStop = false;
+            this.TextBoxTask_NVR.Text = "Протабулировать функцию на заданном диапазоне от -5 до 5.\r\nРезультат вывести в te" +
+    "xtBox. Построить график функции и сохранить в файл OutPutFileTask4V11.txt по наж" +
+    "атию кнопки.";
+            // 
             // PanelLeft_NVR
             // 
             this.PanelLeft_NVR.Controls.Add(this.GroupBoxOutput_NVR);
@@ -82,24 +206,6 @@
             this.PanelLeft_NVR.Padding = new System.Windows.Forms.Padding(5);
             this.PanelLeft_NVR.Size = new System.Drawing.Size(200, 300);
             this.PanelLeft_NVR.TabIndex = 1;
-            // 
-            // PanelFill_NVR
-            // 
-            this.PanelFill_NVR.Controls.Add(this.Chart_NVR);
-            this.PanelFill_NVR.Controls.Add(this.Splitter_NVR);
-            this.PanelFill_NVR.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PanelFill_NVR.Location = new System.Drawing.Point(200, 111);
-            this.PanelFill_NVR.Name = "PanelFill_NVR";
-            this.PanelFill_NVR.Size = new System.Drawing.Size(684, 300);
-            this.PanelFill_NVR.TabIndex = 2;
-            // 
-            // Splitter_NVR
-            // 
-            this.Splitter_NVR.Location = new System.Drawing.Point(0, 0);
-            this.Splitter_NVR.Name = "Splitter_NVR";
-            this.Splitter_NVR.Size = new System.Drawing.Size(3, 300);
-            this.Splitter_NVR.TabIndex = 0;
-            this.Splitter_NVR.TabStop = false;
             // 
             // GroupBoxOutput_NVR
             // 
@@ -123,147 +229,45 @@
             this.TextBoxOutput_NVR.Size = new System.Drawing.Size(184, 265);
             this.TextBoxOutput_NVR.TabIndex = 0;
             // 
-            // GroupBoxTask_NVR
+            // PanelFill_NVR
             // 
-            this.GroupBoxTask_NVR.Controls.Add(this.PictureBoxFormula_NVR);
-            this.GroupBoxTask_NVR.Controls.Add(this.TextBoxTask_NVR);
-            this.GroupBoxTask_NVR.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.GroupBoxTask_NVR.Location = new System.Drawing.Point(8, 3);
-            this.GroupBoxTask_NVR.Name = "GroupBoxTask_NVR";
-            this.GroupBoxTask_NVR.Size = new System.Drawing.Size(357, 129);
-            this.GroupBoxTask_NVR.TabIndex = 0;
-            this.GroupBoxTask_NVR.TabStop = false;
-            this.GroupBoxTask_NVR.Text = "Условие";
-            // 
-            // TextBoxTask_NVR
-            // 
-            this.TextBoxTask_NVR.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.TextBoxTask_NVR.Location = new System.Drawing.Point(0, 25);
-            this.TextBoxTask_NVR.Multiline = true;
-            this.TextBoxTask_NVR.Name = "TextBoxTask_NVR";
-            this.TextBoxTask_NVR.ReadOnly = true;
-            this.TextBoxTask_NVR.Size = new System.Drawing.Size(353, 92);
-            this.TextBoxTask_NVR.TabIndex = 0;
-            this.TextBoxTask_NVR.TabStop = false;
-            this.TextBoxTask_NVR.Text = "Протабулировать функцию на заданном диапазоне от -5 до 5.\r\nРезультат вывести в te" +
-    "xtBox. Построить график функции и сохранить в файл OutPutFileTask4V11.txt по наж" +
-    "атию кнопки.";
-            // 
-            // PictureBoxFormula_NVR
-            // 
-            this.PictureBoxFormula_NVR.Image = ((System.Drawing.Image)(resources.GetObject("PictureBoxFormula_NVR.Image")));
-            this.PictureBoxFormula_NVR.Location = new System.Drawing.Point(0, 83);
-            this.PictureBoxFormula_NVR.Name = "PictureBoxFormula_NVR";
-            this.PictureBoxFormula_NVR.Size = new System.Drawing.Size(351, 19);
-            this.PictureBoxFormula_NVR.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PictureBoxFormula_NVR.TabIndex = 1;
-            this.PictureBoxFormula_NVR.TabStop = false;
-            // 
-            // GroupBoxInput_NVR
-            // 
-            this.GroupBoxInput_NVR.Controls.Add(this.TextBoxStop_NVR);
-            this.GroupBoxInput_NVR.Controls.Add(this.TextBoxStart_NVR);
-            this.GroupBoxInput_NVR.Controls.Add(this.LabelStop_NVR);
-            this.GroupBoxInput_NVR.Controls.Add(this.LabelStart_NVR);
-            this.GroupBoxInput_NVR.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.GroupBoxInput_NVR.Location = new System.Drawing.Point(371, 3);
-            this.GroupBoxInput_NVR.Name = "GroupBoxInput_NVR";
-            this.GroupBoxInput_NVR.Size = new System.Drawing.Size(227, 108);
-            this.GroupBoxInput_NVR.TabIndex = 1;
-            this.GroupBoxInput_NVR.TabStop = false;
-            this.GroupBoxInput_NVR.Text = "Ввод данных";
-            // 
-            // LabelStart_NVR
-            // 
-            this.LabelStart_NVR.AutoSize = true;
-            this.LabelStart_NVR.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.LabelStart_NVR.Location = new System.Drawing.Point(0, 28);
-            this.LabelStart_NVR.Name = "LabelStart_NVR";
-            this.LabelStart_NVR.Size = new System.Drawing.Size(67, 13);
-            this.LabelStart_NVR.TabIndex = 0;
-            this.LabelStart_NVR.Text = "Старт шага";
-            // 
-            // LabelStop_NVR
-            // 
-            this.LabelStop_NVR.AutoSize = true;
-            this.LabelStop_NVR.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.LabelStop_NVR.Location = new System.Drawing.Point(110, 28);
-            this.LabelStop_NVR.Name = "LabelStop_NVR";
-            this.LabelStop_NVR.Size = new System.Drawing.Size(77, 14);
-            this.LabelStop_NVR.TabIndex = 1;
-            this.LabelStop_NVR.Text = "Конец шага";
-            // 
-            // TextBoxStart_NVR
-            // 
-            this.TextBoxStart_NVR.Location = new System.Drawing.Point(0, 44);
-            this.TextBoxStart_NVR.Name = "TextBoxStart_NVR";
-            this.TextBoxStart_NVR.Size = new System.Drawing.Size(100, 26);
-            this.TextBoxStart_NVR.TabIndex = 2;
-            // 
-            // TextBoxStop_NVR
-            // 
-            this.TextBoxStop_NVR.Location = new System.Drawing.Point(113, 45);
-            this.TextBoxStop_NVR.Name = "TextBoxStop_NVR";
-            this.TextBoxStop_NVR.Size = new System.Drawing.Size(100, 26);
-            this.TextBoxStop_NVR.TabIndex = 3;
-            // 
-            // ButtonDone_NVR
-            // 
-            this.ButtonDone_NVR.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.ButtonDone_NVR.BackColor = System.Drawing.Color.Green;
-            this.ButtonDone_NVR.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ButtonDone_NVR.Location = new System.Drawing.Point(604, 25);
-            this.ButtonDone_NVR.Name = "ButtonDone_NVR";
-            this.ButtonDone_NVR.Size = new System.Drawing.Size(88, 71);
-            this.ButtonDone_NVR.TabIndex = 2;
-            this.ButtonDone_NVR.Text = "Выполнить";
-            this.ButtonDone_NVR.UseVisualStyleBackColor = false;
-            this.ButtonDone_NVR.Click += new System.EventHandler(this.ButtonDone_NVR_Click);
-            // 
-            // ButtonSave_NVR
-            // 
-            this.ButtonSave_NVR.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.ButtonSave_NVR.BackColor = System.Drawing.Color.RoyalBlue;
-            this.ButtonSave_NVR.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ButtonSave_NVR.Location = new System.Drawing.Point(699, 25);
-            this.ButtonSave_NVR.Name = "ButtonSave_NVR";
-            this.ButtonSave_NVR.Size = new System.Drawing.Size(92, 71);
-            this.ButtonSave_NVR.TabIndex = 3;
-            this.ButtonSave_NVR.Text = "Сохранить";
-            this.ButtonSave_NVR.UseVisualStyleBackColor = false;
-            this.ButtonSave_NVR.Click += new System.EventHandler(this.ButtonSave_NVR_Click);
-            // 
-            // ButtonInfo_NVR
-            // 
-            this.ButtonInfo_NVR.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.ButtonInfo_NVR.BackColor = System.Drawing.Color.DodgerBlue;
-            this.ButtonInfo_NVR.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.ButtonInfo_NVR.Location = new System.Drawing.Point(797, 25);
-            this.ButtonInfo_NVR.Name = "ButtonInfo_NVR";
-            this.ButtonInfo_NVR.Size = new System.Drawing.Size(75, 71);
-            this.ButtonInfo_NVR.TabIndex = 4;
-            this.ButtonInfo_NVR.Text = "Справка";
-            this.ButtonInfo_NVR.UseVisualStyleBackColor = false;
-            this.ButtonInfo_NVR.Click += new System.EventHandler(this.ButtonInfo_NVR_Click);
+            this.PanelFill_NVR.Controls.Add(this.Chart_NVR);
+            this.PanelFill_NVR.Controls.Add(this.Splitter_NVR);
+            this.PanelFill_NVR.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PanelFill_NVR.Location = new System.Drawing.Point(200, 111);
+            this.PanelFill_NVR.Name = "PanelFill_NVR";
+            this.PanelFill_NVR.Size = new System.Drawing.Size(684, 300);
+            this.PanelFill_NVR.TabIndex = 2;
             // 
             // Chart_NVR
             // 
-            chartArea2.Name = "ChartArea1";
-            this.Chart_NVR.ChartAreas.Add(chartArea2);
+            chartArea1.Name = "ChartArea1";
+            this.Chart_NVR.ChartAreas.Add(chartArea1);
             this.Chart_NVR.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend2.Name = "Legend1";
-            this.Chart_NVR.Legends.Add(legend2);
+            legend1.Name = "Legend1";
+            this.Chart_NVR.Legends.Add(legend1);
             this.Chart_NVR.Location = new System.Drawing.Point(3, 0);
             this.Chart_NVR.Name = "Chart_NVR";
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series2.IsVisibleInLegend = false;
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            this.Chart_NVR.Series.Add(series2);
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series1.IsVisibleInLegend = false;
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.Chart_NVR.Series.Add(series1);
             this.Chart_NVR.Size = new System.Drawing.Size(681, 300);
             this.Chart_NVR.TabIndex = 1;
             this.Chart_NVR.Text = "График";
+            title1.Name = "Title1";
+            title1.Text = "График функции";
+            this.Chart_NVR.Titles.Add(title1);
+            // 
+            // Splitter_NVR
+            // 
+            this.Splitter_NVR.Location = new System.Drawing.Point(0, 0);
+            this.Splitter_NVR.Name = "Splitter_NVR";
+            this.Splitter_NVR.Size = new System.Drawing.Size(3, 300);
+            this.Splitter_NVR.TabIndex = 0;
+            this.Splitter_NVR.TabStop = false;
             // 
             // FormMain_NVR
             // 
@@ -279,15 +283,15 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Спринт 6 | Таск 4 | Вариант 11 | Насырова В.Р.";
             this.PanelTop_NVR.ResumeLayout(false);
-            this.PanelLeft_NVR.ResumeLayout(false);
-            this.PanelFill_NVR.ResumeLayout(false);
-            this.GroupBoxOutput_NVR.ResumeLayout(false);
-            this.GroupBoxOutput_NVR.PerformLayout();
+            this.GroupBoxInput_NVR.ResumeLayout(false);
+            this.GroupBoxInput_NVR.PerformLayout();
             this.GroupBoxTask_NVR.ResumeLayout(false);
             this.GroupBoxTask_NVR.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBoxFormula_NVR)).EndInit();
-            this.GroupBoxInput_NVR.ResumeLayout(false);
-            this.GroupBoxInput_NVR.PerformLayout();
+            this.PanelLeft_NVR.ResumeLayout(false);
+            this.GroupBoxOutput_NVR.ResumeLayout(false);
+            this.GroupBoxOutput_NVR.PerformLayout();
+            this.PanelFill_NVR.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Chart_NVR)).EndInit();
             this.ResumeLayout(false);
 
