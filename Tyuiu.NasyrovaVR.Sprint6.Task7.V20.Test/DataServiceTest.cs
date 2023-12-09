@@ -1,10 +1,9 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using System.IO;
+using System.IO:
+using Tyuiu.NasyrovaVR.Sprint6.Task7.V20.Lib;
 
-using Tyuiu.NasyrovaVR.Sprint6.Task6.V24.Lib;
-
-namespace Tyuiu.NasyrovaVR.Sprint6.Task6.V24.Test
+namespace Tyuiu.NasyrovaVR.Sprint6.Task7.V20.Test
 {
     [TestClass]
     public class DataServiceTest
@@ -12,7 +11,7 @@ namespace Tyuiu.NasyrovaVR.Sprint6.Task6.V24.Test
         [TestMethod]
         public void CheckFileExist()
         {
-            string path = @"L:\Проги\DataSprint6\InPutFileTask6V24.txt";
+            string path = @"L:\Проги\DataSprint6\InPutFileTask7V20.csv";
 
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
